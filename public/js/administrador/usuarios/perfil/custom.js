@@ -1,0 +1,22 @@
+$(document).ready(function(){
+  $("#cambiarClave").change(function(){
+    $("#clave").val("");
+    $("#comprobarClave").val("");
+    if($(this).is(":checked")){
+      $("#clave").attr("disabled",false);
+      $("#clave").attr("required",true);
+      $("#comprobarClave").attr("disabled",false);
+      $("#comprobarClave").attr("required",true);
+      $("#crear").attr("disabled",true);
+      $("#textoComprobacion").show();
+    }else{
+      $("#clave").attr("disabled",true);
+      $("#clave").attr("required",false);
+      $("#comprobarClave").attr("disabled",true);
+      $("#comprobarClave").attr("required",false);
+      $("#crear").attr("disabled",false);
+      $("#textoComprobacion").hide();
+    }
+  });
+
+});

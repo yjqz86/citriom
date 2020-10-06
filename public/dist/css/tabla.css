@@ -1,0 +1,22 @@
+.tabla-huma {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tabla-huma th, td {
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+
+.tabla-huma tbody tr{
+  border-top: 1px solid #ddd;
+}
+
+.tabla-huma tbody tr:hover {
+  background-color: #C6F0DA;
+}
+
+#filaInicial:hover{
+  background-color: #fff;
+}

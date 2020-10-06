@@ -1,0 +1,16 @@
+[25-Apr-2017 14:44:21 UTC] PHP Parse error:  syntax error, unexpected 'la' (T_STRING) in /home/idiomasu/public_html/app/controllers/administrador/AdministradorInscripcionEstudianteController.php on line 160
+[26-Apr-2017 11:03:21 America/Caracas] PHP Fatal error:  Call to undefined function setLocate() in /home/idiomasu/public_html/app/controllers/administrador/AdministradorMatriculacionController.php on line 8
+[05-May-2017 10:42:35 America/Caracas] PHP Fatal error:  Out of memory (allocated 1572864) (tried to allocate 111 bytes) in /home/idiomasu/public_html/vendor/composer/autoload_static.php on line 2128
+[08-May-2017 13:31:58 UTC] PHP Fatal error:  Cannot use object of type Carbon\Carbon as array in /home/idiomasu/public_html/public/excel/PHPExcel/Cell/DefaultValueBinder.php on line 86
+[08-May-2017 17:57:27 UTC] PHP Fatal error:  Class 'Inscritosuba' not found in /home/idiomasu/public_html/app/controllers/administrador/AdministradorNivelacionController.php on line 139
+[08-May-2017 17:58:28 UTC] PHP Fatal error:  Class 'Inscritosuba' not found in /home/idiomasu/public_html/app/controllers/administrador/AdministradorNivelacionController.php on line 139
+[08-May-2017 17:59:15 UTC] PHP Fatal error:  Class 'Inscritosuba' not found in /home/idiomasu/public_html/app/controllers/administrador/AdministradorNivelacionController.php on line 139
+[08-May-2017 18:02:20 UTC] PHP Fatal error:  Class 'Inscritosuba' not found in /home/idiomasu/public_html/app/controllers/administrador/AdministradorNivelacionController.php on line 139
+[08-May-2017 19:23:01 UTC] PHP Fatal error:  Class 'Inscritosuba' not found in /home/idiomasu/public_html/app/controllers/administrador/AdministradorNivelacionController.php on line 139
+[10-May-2017 14:28:58 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::where() in /home/idiomasu/public_html/app/controllers/administrador/AdministradorContadorController.php on line 51
+[10-May-2017 14:29:11 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::where() in /home/idiomasu/public_html/app/controllers/administrador/AdministradorContadorController.php on line 51
+[10-May-2017 14:29:29 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::where() in /home/idiomasu/public_html/app/controllers/administrador/AdministradorContadorController.php on line 51
+[11-May-2017 14:32:10 UTC] PHP Fatal error:  Call to undefined function where() in /home/idiomasu/public_html/app/controllers/administrador/AdministradorMatriculacionController.php on line 34
+[11-May-2017 14:46:04 UTC] PHP Parse error:  syntax error, unexpected ')', expecting '{' in /home/idiomasu/public_html/app/controllers/administrador/AdministradorMatriculacionController.php on line 42
+[11-May-2017 19:36:52 UTC] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception in /home/idiomasu/public_html/vendor/thujohn/pdf/src/Thujohn/Pdf/dompdf/include/dompdf.cls.php on line 0
+[12-May-2017 11:41:00 UTC] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception in /home/idiomasu/public_html/vendor/thujohn/pdf/src/Thujohn/Pdf/dompdf/include/dompdf.cls.php on line 0

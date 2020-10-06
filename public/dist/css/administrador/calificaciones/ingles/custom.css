@@ -1,0 +1,8 @@
+.content-wrap section{
+  text-align: left;
+}
+
+section {
+    font-weight: normal !important;
+    font-size: 18px;
+}

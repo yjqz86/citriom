@@ -1,0 +1,264 @@
+/* Sidebar */
+.sidebar-light.sidebar-left{
+  background: #085f57;
+  border:0;
+}
+
+.select2-offscreen, .select2-offscreen:focus {
+width: inherit !important;
+height: inherit !important;
+overflow: auto !important;
+top: 60px !important;
+}
+
+a.logout{
+  color:#fff;
+}
+
+a:hover.logout{
+  color:#D4D4D4;
+}
+
+/* Configuraciones del Header*/
+.header{
+  background:#085f57;
+  height:55px;
+  padding-right: 18px;
+}
+
+/* Configuraciones del H4 dentro del header */
+.header h4{
+  color: #fff;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: inline-block;
+}
+
+/* Barra de titulo */
+.sidebar-light .sidebar-brand{
+  text-align: center;
+  background: #053e39;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 800;
+  color: #fff;
+  padding-right: 13px;
+  border: 0;
+}
+
+.layout-content{
+  margin:0 !important;
+  padding: 0;
+}
+
+.contenido{
+  margin: 30px;
+  padding: 30px;
+  border: 1px solid #cccaca;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+/* Cuando le hiciste click al submenu */
+.metisMenu li.active li.active .submenu:focus{
+  font-weight: 800;
+  background-color: #04a093b5;
+}
+
+/* Cuando haces hover en los elementos del sub-menu */
+.metisMenu .hover li:hover {
+  background-color: #04a093b5;
+}
+
+/* Le quita la negrita al sub menu de Creacion de ofertas */
+.metisMenu .hover a{
+  font-weight: normal;
+}
+
+/* Indentacion del sub-menu */
+.hover a{
+  margin-left: 15px;
+}
+
+/* Fondo de los iconos cuando esta mobile */
+.navbar-toggle{
+  background-color: #085f57;
+  color: #fff !important;
+  padding: 0;
+}
+
+.navbar-toggle:before{
+  color: #fff;
+}
+
+.navbar-toggle:hover:before, .navbar-toggle:focus:before{
+  color: #085f57;
+}
+
+/* Para poner la letra en negrita cuando hiciste click en un elemento */
+li.active > a{
+  font-weight: 800;
+}
+/* Para quitarle el borde punteado */
+li a{
+  outline:0px !important;
+}
+
+/* Configuraciones del UL*/
+ul{
+  list-style: none;
+  display: block;
+  border: 0;
+  padding: 0;
+}
+
+/* Para quitarle el borde verde superpuesto al submenu */
+.sub-menu li{
+  border-left: 0 !important;
+}
+
+#cabecera{
+  padding-right:0;
+  padding-left:0;
+}
+
+.container-fluid.header a span{
+  padding-top: 12px;
+}
+
+.container-fluid.header{
+  text-align: center;
+}
+
+h3.cabecera{
+  margin: 15px;
+}
+
+/* Colorea el submenu */
+.hover{
+  background-color: #08827794;
+}
+
+/* La transicion para todos los bordes */
+li{
+  transition: border 0.3s;
+}
+
+/* Configuraciones para cuando el menu esta seleccionado */
+.metisMenu .active{
+  background: #04a093b5;
+  border-left: 7px solid #7ec5b2;
+}
+
+/* Configuraciones generales de los a */
+.metisMenu a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 15px;
+}
+
+.sidebar .glyphicon, .header .glyphicon{
+  float: right;
+  padding-right: 6.5px;
+  font-size: 30px;
+}
+
+/*Para cuando la pantalla este normal */
+@media (min-width: 765px) {
+  .layout-content{
+    padding: 0 !important;
+    padding-left: 70px !important;
+    margin: 0;
+  }
+
+  .contenido{
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid #cccaca;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+
+  /* Opciones normales (Antes de hacer hover) */
+  .sidebar-light.sidebar-left{
+    margin-left: -180px;
+    transition: margin 0.4s ease-out;
+  }
+
+  /* Efecto hover */
+  .sidebar-light.sidebar-left:hover{
+    margin-left: 0;
+  }
+
+  /* Alineacion normal del texto "IMI" */
+  .sidebar-light .sidebar-brand{
+    text-align: right;
+  }
+
+  /* Mueve el texto "IMI" al centro al hacer hover */
+  .sidebar-light.sidebar-left:hover .sidebar-brand{
+    text-align: center;
+  }
+
+  /* Opciones de los iconos normalmente (sin hover) */
+  .sidebar .glyphicon{
+    float: right;
+    padding-right: 6.5px;
+    font-size: 30px;
+    transition: font-size 0.4s;
+  }
+
+  /* Cambia el tamaño de los iconos al hacer hover */
+  .sidebar-light.sidebar-left:hover .glyphicon{
+    font-size: 20px;
+  }
+
+  /* Hover de los menus (normales) */
+  .metisMenu > li:hover{
+    background: #04a093b5;
+    border-left: 7px solid #7ec5b2;
+  }
+
+  /* Le pone negrita solo al encabezado del menu al hacer hover, de esta forma se evita que los submenus tengan negrita antes de hacer hover*/
+  .metisMenu li:hover >a{
+    transition: font-weight 0s;
+    font-weight: 800;
+  }
+
+  /* Opciones del hover en los submenus */
+  .collapse li:hover{
+    background: #04a093b5;
+    border-left: 0;
+    transition: font-weight 0s;
+    font-weight: 800;
+  }
+
+  /* Pone negrita al pasar los mouse en los submenus*/
+  .collapse a:hover{
+    font-weight: 800;
+  }
+}
+
+@media (max-width: 765px){
+  .layout-content{
+    padding-top: 0 !important;
+  }
+}
+
+.select{
+  min-width: inherit;
+}
+
+body{
+  background: #E0E0E0;
+  width: 100%;
+  height: 100%;
+}
+
+html{
+  width: 100%;
+  height: 100%;
+}

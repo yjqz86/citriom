@@ -1,0 +1,13 @@
+.panel.panel-default{
+  padding: 0;
+  border-color: #ecf0f1 !important;
+}
+
+.panel.panel-default .panel-heading.text-center strong{
+  color:#34495e;
+}
+
+.panel-heading{
+  background-color: #ecf0f1 !important;
+  border-color: #ecf0f1 !important;
+}

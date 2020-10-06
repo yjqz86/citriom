@@ -1,0 +1,24 @@
+table{
+  border-collapse: initial !important;
+}
+
+table, tr{
+  border: 1px solid #ecf0f1;
+  border-radius: 4px;
+}
+
+.tabla-huma tbody tr:hover{
+  background-color: #fff;
+}
+
+table thead th{
+  background-color: #ecf0f1;
+}
+
+label.radio{
+  display: initial;
+}
+
+label.radio:first-of-type{
+  margin-right: 15px;
+}

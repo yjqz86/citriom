@@ -1,0 +1,13 @@
+.form-control[readonly]{
+  color: #8a8a8a;
+  border-color: #bdc3c7;
+  opacity: 1;
+}
+
+.readonly{
+  background-color: #f4f6f6;
+  color: #8a8a8a;
+  border-color: #bdc3c7;
+  opacity: 1;
+  cursor: pointer;
+}

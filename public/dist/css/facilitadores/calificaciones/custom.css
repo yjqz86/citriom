@@ -1,0 +1,11 @@
+table.datos{
+  margin: auto;
+  overflow-x: auto;
+  text-align: center !important;
+}
+
+table.datos th{
+  width: 200px;
+  height: 70px;
+  text-align: center;
+}

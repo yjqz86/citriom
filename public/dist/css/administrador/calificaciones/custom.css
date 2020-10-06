@@ -1,0 +1,10 @@
+table input{
+  width: 60px !important;
+  text-align: center !important;
+  display: initial !important;
+}
+
+.has-error{
+  border-color: #e74c3c !important;
+  color: #e74c3c !important;
+}

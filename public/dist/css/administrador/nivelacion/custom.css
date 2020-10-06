@@ -1,0 +1,51 @@
+.linea-vertical{
+  height:800px;
+  width:0.4px;
+  background:#cecece;
+  padding:0;
+  margin:0;
+  margin-left:27px;
+  margin-right:23px;
+}
+
+.panel-tabla{
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.panel{
+  padding-top:0;
+  padding-bottom:0;
+  border:1.4px solid #cecece;
+  border-radius:5px;
+}
+
+.tabla-huma tbody tr:hover{
+  background-color: #fff;
+}
+
+.tabla-huma tbody tr td{
+  text-align: left !important;
+}
+
+.texto{
+  font-size: 19px;
+  font-weight: 400;
+}
+
+table tbody, table thead{
+  display: block;
+}
+
+table tbody{
+  height: 600px;
+  overflow-y: auto;
+}
+
+table thead td:last-child{
+  width: 100%;
+}
+
+table thead tr{
+  border-bottom: 2px solid;
+}

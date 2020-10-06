@@ -1,0 +1,40 @@
+html,body{
+  height: 100%;
+}
+
+/* Configuraciones del header */
+header{
+  padding-top:40px;
+}
+
+/* Cosas del sub-menu del navbar */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  right: 100%;
+  margin-top: -1px;
+}
+/* fin de las cosas del sub-menu del navbar */
+
+.navbar-brand{
+  font-family: CaveatBrush, sans-serif !important;
+}
+
+.colorear-panel:hover {
+  background: #ecf0f1;
+}
+
+@media (min-width: 1200px) {
+  .container{
+    max-width: 870px;
+  }
+}
+
+/* Fuente del IDIM en la Barra de navegacion */
+@font-face {
+  font-family: "CaveatBrush";
+  src: url(../../fonts/CaveatBrush-Regular.ttf) format("truetype");
+}

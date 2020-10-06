@@ -1,0 +1,52 @@
+/* Direccion en el footer */
+address{
+  display: inline-block;
+  margin-left: 36px;
+  font-size: 14px;
+}
+
+/* Color de fondo del footer */
+footer{
+  background-color: #34495e;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+/* Encabezados de las listas del footer */
+footer h6{
+  margin-top: 10%;
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+/* Subrayado en Telefono y Linea Gratuita */
+footer .colored{
+  text-decoration: underline;
+}
+
+#contacto{
+  margin-left: 36px;
+  display: inline-block;
+}
+
+#linksEspeciales a{
+  padding-left:  7px;
+  padding-right: 7px;
+  margin-left:   7px;
+  margin-right:  7px;
+  border: 1px solid #95A5A6;
+}
+
+#linksEspeciales a:hover{
+  text-decoration: underline;
+  color: #ECF0F1;
+  font-weight: bold;
+}
+
+/* Icono al lado de los telefonos */
+.fui-chat{
+  margin-top: 2%;
+  display: inline-block;
+  position: absolute;
+}
